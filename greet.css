@@ -1,0 +1,23 @@
+.name{
+    justify-content: center;
+    display: flex;
+}
+input{
+    margin-top: 3em;
+}
+body{
+    background-image: url(wood.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shift{
+    justify-content: center;
+    display: flex;
+}
+.col-11{
+    text-align: center;
+}
+.display{
+    justify-content: center;
+    display: flex;
+}

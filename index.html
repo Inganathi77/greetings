@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,16 +11,65 @@
 </head>
 
 <body>
-    <div class="center">
-            <h1>Greeting</h1>
-            <input type="text" name="FirstName" value="greetings"> <br>
-            <input type="radio" name="Xhosa" value="Xhosa"> Xhosa <br>
-            <input type="radio" name="English" value="English"> English <br>
-            <input type="radio" name="Zulu" value="Zulu"> Zulu <br> 
-            <button type="button">greet me!</button>
-     
+    <div class="row">
+        <div class="col-12">
+            <h1 class="center">Greeting</h1>
+        </div>
+
     </div>
-    
+    <div class="row">
+        <div class="col-12">
+            <div class="name">
+                <span>
+                    <h2>Name : </h2>
+                </span>
+                <span>
+                    <input type="text" id="input">
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="shift">
+                <span>
+                    <input type="radio" name="radioBtn" value="Isixhosa"> Isixhosa</span>
+
+                <span>
+                    <input type="radio" name="radioBtn" value="English"> English</span>
+                <span>
+                    <input type="radio" name="radioBtn" value="Isizulu"> Isizulu
+
+                </span>
+               
+            </div>
+        </div>
+    </div>
+    <div class="col-11">
+        <button type="button" class="greetButton">Greet me!</button>
+         <button type="button" class="resetButton">Reset</button>
+         
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <span class="display">
+                Greet message!
+            </span>
+
+        </div>
+    </div>
+    <div class="row" style="text-align:center">
+        <div class="col-12">
+            <p>Counter</p><span class="counter"></span>
+
+        </div>
+    </div>
+
+
 </body>
 <script src="greet.js"></script>
+<script src="dom.js"></script>
+
 </html>
